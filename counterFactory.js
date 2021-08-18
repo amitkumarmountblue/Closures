@@ -1,12 +1,11 @@
  function  counterFactory(){
-        let inc = 0;
-        let dec = 0;
+        let counter=0;
         return {
           increment(){
-            return ++inc;
+            return ++counter;
           },
           decrement() {
-            return --dec;
+            return --counter;
           }
         }
 };

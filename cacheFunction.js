@@ -7,7 +7,6 @@
             cache[x] = cb(x);
 		    return cache[x];
         }
-      
     }
    
     }; 
